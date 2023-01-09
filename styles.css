@@ -1,0 +1,123 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#headerdiv1{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#headerdiv2{
+    margin-top: 1.5rem;
+}
+#headerdiv3{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+header div h1{
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+    color: aliceblue;
+}
+header div a{
+    
+    color:azure;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+header div a:hover{
+    color: rgb(127, 217, 255);
+    transition: 1s;
+}
+
+#booktrial{
+    border: 1px solid white;
+}
+
+#booktrial:hover{
+    color:rgb(11, 11, 11);
+    background-color: rgb(127, 180, 255);
+    transition: 1s;
+}
+
+#p1{
+    background-color: rgb(79, 11, 97);
+    text-align: center;
+    height: 5rem;
+    padding-top:  2rem;
+    color: whitesmoke;
+    font-family: cursive ;
+}
+
+#gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.images:hover{
+    box-shadow: 4px 4px 4px;
+    color: #000;
+}
+
+.images{
+    border: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+section{
+    background-image: url("images.jfif");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section div{
+    padding-top:  3rem;
+    text-align: center;
+    color: azure;
+}
+
+#book{
+    border: 1px solid rgb(239, 234, 241);
+    border-radius: 20%;
+    text-decoration: none;
+    padding:0.5rem;
+    color: rgb(131, 92, 142);
+}
+#book:hover{
+    color:rgb(11, 11, 11);
+    background-color: rgb(127, 180, 255);
+    transition: 1s;
+}
+
+#footer{
+    background-color: #000;
+    height: 200px;
+    
+    color: beige;
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+section div p{
+    margin-top: 1rem;
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
